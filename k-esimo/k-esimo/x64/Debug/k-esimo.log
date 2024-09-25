@@ -1,4 +1,2 @@
 ﻿  Source.cpp
-C:\Users\Javier\Desktop\TAIS\k-esimo\k-esimo\Source.cpp(107): warning C4715: 'Set<int,std::less<int> >::k_esimo': no todas las rutas de acceso de control devuelven un valor
-C:\Users\Javier\Desktop\TAIS\k-esimo\k-esimo\Source.cpp(106): warning C4172: devolución de dirección de la variable local o temporal
   k-esimo.vcxproj -> C:\Users\Javier\Desktop\TAIS\k-esimo\x64\Debug\k-esimo.exe

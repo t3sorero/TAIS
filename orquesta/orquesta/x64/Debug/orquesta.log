@@ -1,0 +1,14 @@
+﻿  Source.cpp
+C:\Users\Javier\Desktop\TAIS\orquesta\orquesta\Header.h(49,1): warning C4267: 'argumento': conversión de 'size_t' a 'int'; posible pérdida de datos
+C:\Users\Javier\Desktop\TAIS\orquesta\orquesta\Header.h(47,1): message : al compilar la función del miembro clase plantilla "void PriorityQueue<InfoGrupo,std::greater<InfoGrupo>>::push(const T &)"
+          with
+          [
+              T=InfoGrupo
+          ]
+C:\Users\Javier\Desktop\TAIS\orquesta\orquesta\Source.cpp(46,13): message : Vea la referencia a la creación de una instancia de la función plantilla "void PriorityQueue<InfoGrupo,std::greater<InfoGrupo>>::push(const T &)" que se está compilando
+          with
+          [
+              T=InfoGrupo
+          ]
+C:\Users\Javier\Desktop\TAIS\orquesta\orquesta\Source.cpp(40,5): message : Vea la referencia a la creación de una instancia de clase plantilla "PriorityQueue<InfoGrupo,std::greater<InfoGrupo>>" que se está compilando
+  orquesta.vcxproj -> C:\Users\Javier\Desktop\TAIS\orquesta\x64\Debug\orquesta.exe

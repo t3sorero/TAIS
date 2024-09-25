@@ -93,17 +93,17 @@ protected:
         if (a != nullptr) { // a == tam_i
 
             if (a->tam_i > k) {
-                k_esimo(a->iz, k);
+                return k_esimo(a->iz, k);
             }
             else if (a->tam_i < k) {
                 k -= a->tam_i;
-                k_esimo(a->dr, k);
+                return k_esimo(a->dr, k);
             }
             else {
                 return a->elem;
             }
         }
-        else return -1;
+        else throw domain_error("??");
     }
 
     void copia(Set const& other) {
@@ -364,9 +364,12 @@ bool resuelveCaso() {
     for (int i = 0; i < M; i++) {
         int a;
         cin >> a;
-        int sol = tree.kesimo(a);
-        if (sol == -1) cout << "??\n";
-        else cout << sol << endl;
+        try {
+            cout << tree.kesimo(a) << endl;
+        }
+        catch (exception e){
+            cout << e.what() << endl;
+        }
     }
     cout << "---\n";
     return true;
