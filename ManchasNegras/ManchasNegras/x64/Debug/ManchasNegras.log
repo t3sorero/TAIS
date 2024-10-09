@@ -1,0 +1,3 @@
+﻿  Source.cpp
+C:\Users\Javier\Desktop\TAIS\ManchasNegras\ManchasNegras\Source.cpp(36,15): warning C4267: 'inicializando': conversión de 'size_t' a 'int'; posible pérdida de datos
+  ManchasNegras.vcxproj -> C:\Users\Javier\Desktop\TAIS\ManchasNegras\x64\Debug\ManchasNegras.exe

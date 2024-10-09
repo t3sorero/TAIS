@@ -1,0 +1,4 @@
+﻿  Source.cpp
+C:\Users\Javier\Desktop\TAIS\PeajeSombra\PeajeSombra\Source.cpp(18,10): warning C4067: símbolos (token) inesperados después de la directiva del preprocesador; se esperaba una nueva línea
+C:\Users\Javier\Desktop\TAIS\PeajeSombra\PeajeSombra\Source.cpp(93,6): warning C4101: 'punto_medio': variable local sin referencia
+  PeajeSombra.vcxproj -> C:\Users\Javier\Desktop\TAIS\PeajeSombra\x64\Debug\PeajeSombra.exe
