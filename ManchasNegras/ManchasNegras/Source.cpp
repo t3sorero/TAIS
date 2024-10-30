@@ -65,7 +65,7 @@ private:
 		for (auto d : dirs) {
 			int ni = i + d.first;
 			int nj = j + d.second;
-			if (posCorrecta(ni, nj) && M[ni][nj] == '#' && visitados[ni][nj]) tam += dfs(M, ni, nj);
+			if (posCorrecta(ni, nj) && M[ni][nj] == '#' && !visitados[ni][nj]) tam += dfs(M, ni, nj);
 		}
 		return tam;
 	}

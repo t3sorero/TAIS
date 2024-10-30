@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33122.133
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "archipielagoBicicleta", "archipielagoBicicleta\archipielagoBicicleta.vcxproj", "{ECB2DE1C-DE7B-4949-94F5-1EBF4F858BF9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ECB2DE1C-DE7B-4949-94F5-1EBF4F858BF9}.Debug|x64.ActiveCfg = Debug|x64
+		{ECB2DE1C-DE7B-4949-94F5-1EBF4F858BF9}.Debug|x64.Build.0 = Debug|x64
+		{ECB2DE1C-DE7B-4949-94F5-1EBF4F858BF9}.Debug|x86.ActiveCfg = Debug|Win32
+		{ECB2DE1C-DE7B-4949-94F5-1EBF4F858BF9}.Debug|x86.Build.0 = Debug|Win32
+		{ECB2DE1C-DE7B-4949-94F5-1EBF4F858BF9}.Release|x64.ActiveCfg = Release|x64
+		{ECB2DE1C-DE7B-4949-94F5-1EBF4F858BF9}.Release|x64.Build.0 = Release|x64
+		{ECB2DE1C-DE7B-4949-94F5-1EBF4F858BF9}.Release|x86.ActiveCfg = Release|Win32
+		{ECB2DE1C-DE7B-4949-94F5-1EBF4F858BF9}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7C6F0C20-EE6C-4F77-A078-484C97BE0F2C}
+	EndGlobalSection
+EndGlobal
