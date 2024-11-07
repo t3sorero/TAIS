@@ -92,7 +92,7 @@ bool resuelveCaso() {
 		veces.push_back(a-1);
 	}
 	SecuestroPetunia sp(gv,D, veces);
-	cout << sp.sizePueblos();
+	cout << sp.sizePueblos() << "\n";
 
 	// resolver el caso posiblemente llamando a otras funciones
 

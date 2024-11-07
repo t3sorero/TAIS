@@ -31,10 +31,9 @@ using namespace std;
 class MejorCamino {
 public:
 	MejorCamino(GrafoValorado<int> const& gv, int ori) : origen(ori), dist(gv.V(),INF), ulti(gv.V()), pq(gv.V()), 
-		nCalles(gv.V(), INF), callesDijkstra(gv.V(),INF){
+		callesDijkstra(gv.V(),INF){
 		dist[ori] = 0;
 		pq.push(ori, 0);
-		nCalles[ori] = 0;
 		callesDijkstra[ori] = 0;
 		visit[ori] = true;
 		while (!pq.empty()) {
@@ -48,7 +47,8 @@ public:
 			}
 		}
 	}
-	bool menorNCalles(int v) const { return nCalles[v] < callesDijkstra[v]; }
+	//bool menorNCalles(int v) const { return < callesDijkstra[v]; }
+
 
 	bool hayCamino(int v) const { return dist[v] != INF; }
 
@@ -59,7 +59,6 @@ private:
 	vector<int> dist;
 	vector<Arista<int>>ulti;
 	IndexPQ<int> pq;
-	vector<int> nCalles;
 	vector<int> callesDijkstra;
 	vector<bool> visit;
 	
@@ -70,7 +69,6 @@ private:
 			ulti[w] = a;
 			pq.update(w, dist[w]);
 		}
-		if (nCalles[w] > nCalles[v] + 1) nCalles[w] += nCalles[v] + 1;
 	}
 };
 
