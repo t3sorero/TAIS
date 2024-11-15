@@ -58,8 +58,8 @@ bool resuelveCaso() {
 					int ni = i + dirs.first;
 					int nj = j + dirs.second;
 					if (posCorrecta(ni, nj, F, C) && mapa[ni][nj] == '#') { 
-						cj.unir(F * i + j, F * ni + nj); 
-						maximo = max(maximo, cj.cardinal(F * i + j));
+						cj.unir(C * i + j, C * ni + nj); 
+						maximo = max(maximo, cj.cardinal(C * i + j));
 					}
 				}
 			}
@@ -76,8 +76,8 @@ bool resuelveCaso() {
 			int ni = f - 1 + dirs.first;
 			int nj = c - 1 + dirs.second;
 			if (posCorrecta(ni, nj, F, C) && mapa[ni][nj] == '#') {
-				cj.unir(ni * F + nj, (f - 1) * F + c - 1); 
-				maximo = max(maximo, cj.cardinal(ni * F + nj));
+				cj.unir(ni * C + nj, (f - 1) * C + c - 1); 
+				maximo = max(maximo, cj.cardinal(ni * C + nj));
 			}
 		}
 		cout << maximo << " ";

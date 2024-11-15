@@ -1,0 +1,14 @@
+﻿  Source.cpp
+C:\Users\Javier\Desktop\TAIS\broncosBoston\broncosBoston\PriorityQueue.h(50,1): warning C4267: 'argumento': conversión de 'size_t' a 'int'; posible pérdida de datos
+C:\Users\Javier\Desktop\TAIS\broncosBoston\broncosBoston\PriorityQueue.h(48,1): message : al compilar la función del miembro clase plantilla "void PriorityQueue<int,std::less<int>>::push(const T &)"
+          with
+          [
+              T=int
+          ]
+C:\Users\Javier\Desktop\TAIS\broncosBoston\broncosBoston\Source.cpp(37,9): message : Vea la referencia a la creación de una instancia de la función plantilla "void PriorityQueue<int,std::less<int>>::push(const T &)" que se está compilando
+          with
+          [
+              T=int
+          ]
+C:\Users\Javier\Desktop\TAIS\broncosBoston\broncosBoston\Source.cpp(34,21): message : Vea la referencia a la creación de una instancia de clase plantilla "PriorityQueue<int,std::less<int>>" que se está compilando
+  broncosBoston.vcxproj -> C:\Users\Javier\Desktop\TAIS\broncosBoston\x64\Debug\broncosBoston.exe
