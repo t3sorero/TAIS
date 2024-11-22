@@ -39,7 +39,7 @@ public:
 	int distancia(long long int v) const { return dist[v]; }
 
 private:
-	const int INF = numeric_limits<int>::max();
+	const long long INF = numeric_limits<long long int>::max();
 	vector<long long int> dist;
 	IndexPQ<long long int> pq;
 	
@@ -63,7 +63,7 @@ bool ordenaSort(pair<int, long long int> const& a, pair<int, long long int> cons
 	return a.second > b.second;
 }
 bool resuelveCaso() {
-	int V;long long int A;
+	long long int V;long long int A;
 	cin >> V >> A;
 
 	if (!std::cin)  // fin de la entrada

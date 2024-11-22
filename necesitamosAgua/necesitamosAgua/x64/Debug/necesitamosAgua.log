@@ -4,4 +4,6 @@ C:\Users\Javier\Desktop\TAIS\necesitamosAgua\necesitamosAgua\Source.cpp(39,54): 
           [
               _Ty=__int64
           ]
+C:\Users\Javier\Desktop\TAIS\necesitamosAgua\necesitamosAgua\Source.cpp(72,34): warning C4244: 'argumento': conversión de '__int64' a 'int'; posible pérdida de datos
+C:\Users\Javier\Desktop\TAIS\necesitamosAgua\necesitamosAgua\Source.cpp(82,28): warning C4244: 'argumento': conversión de '__int64' a 'int'; posible pérdida de datos
   necesitamosAgua.vcxproj -> C:\Users\Javier\Desktop\TAIS\necesitamosAgua\x64\Debug\necesitamosAgua.exe
