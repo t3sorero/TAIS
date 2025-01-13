@@ -32,7 +32,7 @@ struct Nodo {
 
 
 int estimacion_voraz(vector<Cancion> const& canciones, int D, Nodo const& X) {
-	int hueco = D - (X.duracion_acum1 + X.duracion_acum2);
+	int hueco = 2 * D - (X.duracion_acum1 + X.duracion_acum2);
 	int estimacion = X.puntuacion_acum;
 	int i = X.k + 1;
 

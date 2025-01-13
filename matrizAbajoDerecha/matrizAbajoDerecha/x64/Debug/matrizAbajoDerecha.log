@@ -1,0 +1,9 @@
+﻿  Source.cpp
+C:\Users\Javier\Desktop\TAIS\matrizAbajoDerecha\matrizAbajoDerecha\Matriz.h(43,1): warning C4267: 'return': conversión de 'size_t' a 'int'; posible pérdida de datos
+C:\Users\Javier\Desktop\TAIS\matrizAbajoDerecha\matrizAbajoDerecha\Matriz.h(43,1): message : al compilar la función del miembro clase plantilla "int Matriz<int>::numcols(void) const"
+C:\Users\Javier\Desktop\TAIS\matrizAbajoDerecha\matrizAbajoDerecha\Source.cpp(33,7): message : Vea la referencia a la creación de una instancia de la función plantilla "int Matriz<int>::numcols(void) const" que se está compilando
+C:\Users\Javier\Desktop\TAIS\matrizAbajoDerecha\matrizAbajoDerecha\Source.cpp(31,5): message : Vea la referencia a la creación de una instancia de clase plantilla "Matriz<int>" que se está compilando
+C:\Users\Javier\Desktop\TAIS\matrizAbajoDerecha\matrizAbajoDerecha\Matriz.h(42,1): warning C4267: 'return': conversión de 'size_t' a 'int'; posible pérdida de datos
+C:\Users\Javier\Desktop\TAIS\matrizAbajoDerecha\matrizAbajoDerecha\Matriz.h(42,1): message : al compilar la función del miembro clase plantilla "int Matriz<int>::numfils(void) const"
+C:\Users\Javier\Desktop\TAIS\matrizAbajoDerecha\matrizAbajoDerecha\Source.cpp(33,7): message : Vea la referencia a la creación de una instancia de la función plantilla "int Matriz<int>::numfils(void) const" que se está compilando
+  matrizAbajoDerecha.vcxproj -> C:\Users\Javier\Desktop\TAIS\matrizAbajoDerecha\x64\Debug\matrizAbajoDerecha.exe

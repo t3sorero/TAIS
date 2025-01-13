@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33122.133
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "matrizAbajoDerecha", "matrizAbajoDerecha\matrizAbajoDerecha.vcxproj", "{13ED340C-F6BB-4601-ADF8-AC9753D7E4F5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{13ED340C-F6BB-4601-ADF8-AC9753D7E4F5}.Debug|x64.ActiveCfg = Debug|x64
+		{13ED340C-F6BB-4601-ADF8-AC9753D7E4F5}.Debug|x64.Build.0 = Debug|x64
+		{13ED340C-F6BB-4601-ADF8-AC9753D7E4F5}.Debug|x86.ActiveCfg = Debug|Win32
+		{13ED340C-F6BB-4601-ADF8-AC9753D7E4F5}.Debug|x86.Build.0 = Debug|Win32
+		{13ED340C-F6BB-4601-ADF8-AC9753D7E4F5}.Release|x64.ActiveCfg = Release|x64
+		{13ED340C-F6BB-4601-ADF8-AC9753D7E4F5}.Release|x64.Build.0 = Release|x64
+		{13ED340C-F6BB-4601-ADF8-AC9753D7E4F5}.Release|x86.ActiveCfg = Release|Win32
+		{13ED340C-F6BB-4601-ADF8-AC9753D7E4F5}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5A9964EF-70B3-45E6-BCF3-328DDF6E0B41}
+	EndGlobalSection
+EndGlobal
