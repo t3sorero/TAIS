@@ -20,6 +20,23 @@ using namespace std;
  se resuelve el problema y cuál es el coste de la solución, en función
  del tamaño del problema.
 
+ El problema se resuelve utilizando una estrategia voraz combinada con una cola de prioridad para organizar las actividades y 
+ determinar el mínimo número de recursos necesarios (en este caso, compañeros). La solución tiene en cuenta que las actividades 
+ se pueden solapar, y busca asignar cada actividad al compañero que pueda cubrirla sin conflictos de horario.
+
+ Primero, las actividades se ordenan en función de su tiempo de inicio. Esto garantiza que procesemos las actividades en el orden 
+ en que comienzan, facilitando la asignación eficiente de recursos.
+
+ Se utiliza una cola de prioridad variable donde se guarda donde va a terminar la actividad de cada compañero utilizado (incluido yo)
+ Si este termina mas tarde de cuando empieza la siguiente actividad necesito un nuevo compañero, al cual le asigno la prioridad de cuando acabe su tarea
+ En el otro caso actualizo la prioridad al compañero actual con la del final de actividad actual
+
+ EL coste del sort esta  O(N log N) siendo N el numero de actividades
+ El procesamiento de las actividades: log K siendo K mis compañeros usados en el push() y update() y se realiza N veces siendo N el numero de actividades:
+ O(N log K)
+ Coste total: O(N log N)
+ Espacio adicional: vector actividades O(N)
+
  @ </answer> */
 
 

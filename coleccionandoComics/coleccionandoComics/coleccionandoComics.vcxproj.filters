@@ -22,4 +22,9 @@
   <ItemGroup>
     <Text Include="casos.txt" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="PriorityQueue.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+  </ItemGroup>
 </Project>

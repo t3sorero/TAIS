@@ -1,2 +1,21 @@
 ﻿  Source.cpp
+C:\Users\Javier\Desktop\TAIS\coleccionandoComics\coleccionandoComics\Source.cpp(75,39): warning C4267: 'inicializando': conversión de 'size_t' a 'int'; posible pérdida de datos
+C:\Users\Javier\Desktop\TAIS\coleccionandoComics\coleccionandoComics\Source.cpp(84,2): warning C4267: 'inicializando': conversión de 'size_t' a 'int'; posible pérdida de datos
+C:\Users\Javier\Desktop\TAIS\coleccionandoComics\coleccionandoComics\Source.cpp(91,44): warning C4267: 'inicializando': conversión de 'size_t' a 'int'; posible pérdida de datos
+C:\Users\Javier\Desktop\TAIS\coleccionandoComics\coleccionandoComics\PriorityQueue.h(50,1): warning C4267: 'argumento': conversión de 'size_t' a 'int'; posible pérdida de datos
+C:\Users\Javier\Desktop\TAIS\coleccionandoComics\coleccionandoComics\PriorityQueue.h(48,1): message : al compilar la función del miembro clase plantilla "void PriorityQueue<Comic,std::less<T>>::push(const T &)"
+          with
+          [
+              T=Comic
+          ]
+C:\Users\Javier\Desktop\TAIS\coleccionandoComics\coleccionandoComics\Source.cpp(76,13): message : Vea la referencia a la creación de una instancia de la función plantilla "void PriorityQueue<Comic,std::less<T>>::push(const T &)" que se está compilando
+          with
+          [
+              T=Comic
+          ]
+C:\Users\Javier\Desktop\TAIS\coleccionandoComics\coleccionandoComics\Source.cpp(71,23): message : Vea la referencia a la creación de una instancia de clase plantilla "PriorityQueue<Comic,std::less<T>>" que se está compilando
+          with
+          [
+              T=Comic
+          ]
   coleccionandoComics.vcxproj -> C:\Users\Javier\Desktop\TAIS\coleccionandoComics\x64\Debug\coleccionandoComics.exe

@@ -1,0 +1,18 @@
+﻿  Source.cpp
+C:\Users\Javier\Desktop\TAIS\basesMarte\basesMarte\PriorityQueue.h(50,1): warning C4267: 'argumento': conversión de 'size_t' a 'int'; posible pérdida de datos
+C:\Users\Javier\Desktop\TAIS\basesMarte\basesMarte\PriorityQueue.h(48,1): message : al compilar la función del miembro clase plantilla "void PriorityQueue<Bateria,std::less<T>>::push(const T &)"
+          with
+          [
+              T=Bateria
+          ]
+C:\Users\Javier\Desktop\TAIS\basesMarte\basesMarte\Source.cpp(71,11): message : Vea la referencia a la creación de una instancia de la función plantilla "void PriorityQueue<Bateria,std::less<T>>::push(const T &)" que se está compilando
+          with
+          [
+              T=Bateria
+          ]
+C:\Users\Javier\Desktop\TAIS\basesMarte\basesMarte\Source.cpp(63,33): message : Vea la referencia a la creación de una instancia de clase plantilla "PriorityQueue<Bateria,std::less<T>>" que se está compilando
+          with
+          [
+              T=Bateria
+          ]
+  basesMarte.vcxproj -> C:\Users\Javier\Desktop\TAIS\basesMarte\x64\Debug\basesMarte.exe

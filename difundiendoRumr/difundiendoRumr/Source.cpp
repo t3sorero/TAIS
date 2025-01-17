@@ -21,6 +21,24 @@ using namespace std;
  se resuelve el problema y cuál es el coste de la solución, en función
  del tamaño del problema.
 
+ El problema se resuelve utilizando una estrategia basada en grafos, modelando los personajes y sus 
+ relaciones como un grafo no dirigido. Cada nodo representa un personaje, y cada arista representa una
+ relación de amistad entre dos personajes. El objetivo es encontrar el costo mínimo necesario para 
+ difundir el rumor a todos los personajes del grafo.
+
+La idea principal es que cada componente conexa del grafo puede ser alcanzada sobornando al personaje
+más barato de esa componente. Por lo tanto, el problema se reduce a calcular el costo mínimo para 
+cubrir todas las componentes conexas del grafo
+
+Realizamos una busqueda en anchura (BFS) para encontrar todas las componentes conexas del grafo, y calculamos 
+el coste minimo de difundir el rumor.
+
+Busqueda de la componente conexa: Cada nodo y aristase recorre una unica vez O(V+A) siendo V los personajes y A las aristas
+
+El coste del problema esta en O(V+A) y se utiliza un espacio adicional
+El coste en espacio esta en O(V+A) en crear el grafo y O(V) en el vector de personajes y visitados
+
+ 
  @ </answer> */
 
 

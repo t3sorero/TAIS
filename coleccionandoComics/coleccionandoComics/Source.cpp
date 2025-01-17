@@ -10,6 +10,8 @@
 #include <vector>
 #include<climits>
 
+#include"PriorityQueue.h"
+
 using namespace std;
 
 
@@ -27,7 +29,19 @@ using namespace std;
  // ================================================================
  //@ <answer>
 
+struct mejorComic {
+	int pos;
+	int pila;
+};
 
+struct Comic {
+	int pila;
+	int valor;
+};
+
+bool operator < (Comic c1, Comic c2) {
+	return c1.valor < c2.valor;
+}
 
 bool resuelveCaso() {
 	int P;
@@ -38,33 +52,53 @@ bool resuelveCaso() {
 	
 	vector<vector<int>> listaPilas(P);
 	int minim = INT_MAX;
+	mejorComic mc;
 	for (int i = 0; i < P; i++) {
 		int l; cin >> l;
-		vector<int> pila(l);
+		vector<int> pila;
 		for (int j = 0; j < l; j++) {
 			int d; cin >> d;
 			pila.push_back(d);
-			minim = min(minim, d);
+			if (minim > d) {
+				minim = d;
+				mc.pila = i;
+				mc.pos = j;
+			}
 		}
 		listaPilas[i] = pila;
 	}
-	
-	bool encontrado = false;
+
+	PriorityQueue<Comic> cola;
+	int j = 0;
+	while (j < P) {
+		if (j != mc.pila) {
+			int ulti = listaPilas[j].size() - 1;
+			cola.push({ j, listaPilas[j][ulti]});
+			listaPilas[j].pop_back();
+		}
+		++j;
+	}
+
 	int posicion = 1;
-	while (!encontrado) {
-		pair<int, int> eliminado = { 0,listaPilas[0].back() }; // pila - elemento
-		for (int i = 1; i < P; i++) {
-			if (eliminado.second > listaPilas[i].back()) {
-				eliminado = { i,listaPilas[i].back() };
+
+	for (int i = listaPilas[mc.pila].size() - 1; i > mc.pos; i--) {
+
+		int c = listaPilas[mc.pila][i];
+		while (!cola.empty() && cola.top().valor < c) {
+			auto a = cola.top();
+			cola.pop();
+			posicion++;
+			int ulti = listaPilas[a.pila].size() - 1;
+			if (ulti > 0) {
+				cola.push({a.pila, listaPilas[a.pila][ulti] });
+				listaPilas[a.pila].pop_back();
+
 			}
 		}
-		if (eliminado.second == minim)
-			encontrado = true;
-		else {
-			posicion++;
-			listaPilas[eliminado.first].pop_back();
-		}
+		posicion++;
+		
 	}
+
 	cout << posicion << "\n";
 	return true;
 }

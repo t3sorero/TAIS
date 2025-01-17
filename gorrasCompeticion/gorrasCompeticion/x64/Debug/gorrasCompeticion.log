@@ -1,0 +1,18 @@
+﻿  Source.cpp
+C:\Users\Javier\Desktop\TAIS\gorrasCompeticion\gorrasCompeticion\PriorityQueue.h(50,1): warning C4267: 'argumento': conversión de 'size_t' a 'int'; posible pérdida de datos
+C:\Users\Javier\Desktop\TAIS\gorrasCompeticion\gorrasCompeticion\PriorityQueue.h(48,1): message : al compilar la función del miembro clase plantilla "void PriorityQueue<__int64,std::less<T>>::push(const T &)"
+          with
+          [
+              T=__int64
+          ]
+C:\Users\Javier\Desktop\TAIS\gorrasCompeticion\gorrasCompeticion\Source.cpp(52,10): message : Vea la referencia a la creación de una instancia de la función plantilla "void PriorityQueue<__int64,std::less<T>>::push(const T &)" que se está compilando
+          with
+          [
+              T=__int64
+          ]
+C:\Users\Javier\Desktop\TAIS\gorrasCompeticion\gorrasCompeticion\Source.cpp(45,35): message : Vea la referencia a la creación de una instancia de clase plantilla "PriorityQueue<__int64,std::less<T>>" que se está compilando
+          with
+          [
+              T=__int64
+          ]
+  gorrasCompeticion.vcxproj -> C:\Users\Javier\Desktop\TAIS\gorrasCompeticion\x64\Debug\gorrasCompeticion.exe
