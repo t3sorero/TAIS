@@ -1,0 +1,17 @@
+﻿  FileName.cpp
+C:\Users\javma\source\repos\t3sorero\TAIS\OrdenandoPacientesUrgencias\OrdenandoPacientesUrgencias\PriorityQueue.h(50,29): warning C4267: 'argumento': conversión de 'size_t' a 'int'; posible pérdida de datos
+  (compilando archivo de origen "FileName.cpp")
+      C:\Users\javma\source\repos\t3sorero\TAIS\OrdenandoPacientesUrgencias\OrdenandoPacientesUrgencias\PriorityQueue.h(50,29):
+      el contexto de creación de instancias de la plantilla (el más antiguo primero) es
+          C:\Users\javma\source\repos\t3sorero\TAIS\OrdenandoPacientesUrgencias\OrdenandoPacientesUrgencias\FileName.cpp(43,45):
+          Vea la referencia a la creación de una instancia de clase plantilla "PriorityQueue<Paciente,std::greater<Paciente>>" que se está compilando
+          C:\Users\javma\source\repos\t3sorero\TAIS\OrdenandoPacientesUrgencias\OrdenandoPacientesUrgencias\PriorityQueue.h(48,10):
+          al compilar la función del miembro clase plantilla "void PriorityQueue<Paciente,std::greater<Paciente>>::push(const T &)"
+          with
+          [
+              T=Paciente
+          ]
+              C:\Users\javma\source\repos\t3sorero\TAIS\OrdenandoPacientesUrgencias\OrdenandoPacientesUrgencias\FileName.cpp(56,11):
+              vea la primera referencia a “PriorityQueue<Paciente,std::greater<Paciente>>::push” en “resuelveCaso”
+  
+  OrdenandoPacientesUrgencias.vcxproj -> C:\Users\javma\source\repos\t3sorero\TAIS\OrdenandoPacientesUrgencias\x64\Debug\OrdenandoPacientesUrgencias.exe

@@ -1,0 +1,17 @@
+﻿  FileName.cpp
+C:\Users\javma\source\repos\t3sorero\TAIS\ReinaSuper\ReinaSuper\PriorityQueue.h(50,29): warning C4267: 'argumento': conversión de 'size_t' a 'int'; posible pérdida de datos
+  (compilando archivo de origen "FileName.cpp")
+      C:\Users\javma\source\repos\t3sorero\TAIS\ReinaSuper\ReinaSuper\PriorityQueue.h(50,29):
+      el contexto de creación de instancias de la plantilla (el más antiguo primero) es
+          C:\Users\javma\source\repos\t3sorero\TAIS\ReinaSuper\ReinaSuper\FileName.cpp(51,35):
+          Vea la referencia a la creación de una instancia de clase plantilla "PriorityQueue<Caja,std::less<Caja>>" que se está compilando
+          C:\Users\javma\source\repos\t3sorero\TAIS\ReinaSuper\ReinaSuper\PriorityQueue.h(48,10):
+          al compilar la función del miembro clase plantilla "void PriorityQueue<Caja,std::less<Caja>>::push(const T &)"
+          with
+          [
+              T=Caja
+          ]
+              C:\Users\javma\source\repos\t3sorero\TAIS\ReinaSuper\ReinaSuper\FileName.cpp(64,10):
+              vea la primera referencia a “PriorityQueue<Caja,std::less<Caja>>::push” en “resuelveCaso”
+  
+  ReinaSuper.vcxproj -> C:\Users\javma\source\repos\t3sorero\TAIS\ReinaSuper\x64\Debug\ReinaSuper.exe

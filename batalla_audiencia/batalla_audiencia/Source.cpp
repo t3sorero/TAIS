@@ -8,6 +8,7 @@
 #include <iostream>
 #include <fstream>
 #include "IndexPQ.h"
+#include"PriorityQueue.h"
 
 using namespace std;
 
@@ -25,45 +26,57 @@ using namespace std;
  // ================================================================
  //@ <answer>
 
-void resolver(IndexPQ<int, greater<int>>& queue, IndexPQ<int, greater<int>>&res, const int & oldD, const int&d) {
-	int h = queue.top().elem;
-	int k = d - oldD;
-	k += res.priority(h);
-	res.update(h, k);
-	int a, c = 0;
-	cin >> c;
-	while (c != -1) {
-		cin >> a;
-		queue.update(c-1, a);
-		cin >> c;
-	}
-}
+struct Resultado  
+{  
+   int canal;  
+   int tiempo;  
+
+   bool operator> (Resultado const& otro) const {  
+	   if (tiempo == otro.tiempo)
+		   return canal < otro.canal;
+	   else
+		   return tiempo > otro.tiempo;
+   }
+};
+
 bool resuelveCaso() {
-	int D, C, N, d; 
+	int D, C, N, d;
 	cin >> D >> C >> N;
 	if (!std::cin)  // fin de la entrada
 		return false;
-	IndexPQ<int, greater<int>> queue (C);
-	IndexPQ<int, greater<int>> res(C);
+	IndexPQ<int, greater<int>> queue(C);
+	vector<int> lideres(C, 0);
 	for (int i = 0; i < C; i++) {
 		int aux;
 		cin >> aux;
 		queue.push(i, aux);
-		res.push(i, 0);
 	}
 	int oldD = 0;
+	int anteriorLider = queue.top().elem;
 	for (int i = 0; i < N; i++) {
 		cin >> d;
-		resolver(queue, res, oldD, d);
+		lideres[anteriorLider] += d - oldD;
+		int canal;
+		cin >> canal;
+		while (canal != -1) {
+			int nuevaAudiencia;
+			cin >> nuevaAudiencia;
+			queue.update(canal - 1, nuevaAudiencia);
+			cin >> canal;
+		}
 		oldD = d;
+		anteriorLider = queue.top().elem;
 	}
-	int h = queue.top().elem;
-	int k = D - oldD;
-	k += res.priority(h);
-	res.update(h, k);
-	for (int i = 0; i< C;i++) {
-		if (res.top().prioridad != 0) cout << res.top().elem + 1 << " " << res.top().prioridad << endl;
-		res.pop();
+	lideres[anteriorLider] += D - oldD;
+	PriorityQueue<Resultado, greater<Resultado>> pq;
+	for (int i = 0; i < C; i++) {
+		if (lideres[i] > 0) {
+			pq.push({ i + 1, lideres[i] });
+		}
+	}
+	while (!pq.empty()) {
+		Resultado r = pq.top(); pq.pop();
+		cout << r.canal << " " << r.tiempo << endl;
 	}
 	cout << "---\n";
 	return true;

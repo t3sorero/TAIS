@@ -1,2 +1,17 @@
 ﻿  Source.cpp
-  batalla_audiencia.vcxproj -> C:\Users\Javier\Desktop\TAIS\batalla_audiencia\x64\Debug\batalla_audiencia.exe
+C:\Users\javma\source\repos\t3sorero\TAIS\batalla_audiencia\batalla_audiencia\PriorityQueue.h(50,29): warning C4267: 'argumento': conversión de 'size_t' a 'int'; posible pérdida de datos
+  (compilando archivo de origen "Source.cpp")
+      C:\Users\javma\source\repos\t3sorero\TAIS\batalla_audiencia\batalla_audiencia\PriorityQueue.h(50,29):
+      el contexto de creación de instancias de la plantilla (el más antiguo primero) es
+          C:\Users\javma\source\repos\t3sorero\TAIS\batalla_audiencia\batalla_audiencia\Source.cpp(71,47):
+          Vea la referencia a la creación de una instancia de clase plantilla "PriorityQueue<Resultado,std::greater<Resultado>>" que se está compilando
+          C:\Users\javma\source\repos\t3sorero\TAIS\batalla_audiencia\batalla_audiencia\PriorityQueue.h(48,10):
+          al compilar la función del miembro clase plantilla "void PriorityQueue<Resultado,std::greater<Resultado>>::push(const T &)"
+          with
+          [
+              T=Resultado
+          ]
+              C:\Users\javma\source\repos\t3sorero\TAIS\batalla_audiencia\batalla_audiencia\Source.cpp(74,11):
+              vea la primera referencia a “PriorityQueue<Resultado,std::greater<Resultado>>::push” en “resuelveCaso”
+  
+  batalla_audiencia.vcxproj -> C:\Users\javma\source\repos\t3sorero\TAIS\batalla_audiencia\x64\Debug\batalla_audiencia.exe
