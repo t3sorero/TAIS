@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\javma\\source\\repos\\t3sorero\\TAIS\\SelvaTarzan\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{67A1BD4E-B665-4692-8A6B-5D75282BA6AA}|SelvaTarzan\\SelvaTarzan.vcxproj|C:\\Users\\javma\\source\\repos\\t3sorero\\TAIS\\SelvaTarzan\\SelvaTarzan\\FileName.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{67A1BD4E-B665-4692-8A6B-5D75282BA6AA}|SelvaTarzan\\SelvaTarzan.vcxproj|solutionrelative:SelvaTarzan\\FileName.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67A1BD4E-B665-4692-8A6B-5D75282BA6AA}|SelvaTarzan\\SelvaTarzan.vcxproj|C:\\Users\\javma\\source\\repos\\t3sorero\\TAIS\\SelvaTarzan\\SelvaTarzan\\casos.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{67A1BD4E-B665-4692-8A6B-5D75282BA6AA}|SelvaTarzan\\SelvaTarzan.vcxproj|solutionrelative:SelvaTarzan\\casos.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67A1BD4E-B665-4692-8A6B-5D75282BA6AA}|SelvaTarzan\\SelvaTarzan.vcxproj|C:\\Users\\javma\\source\\repos\\t3sorero\\TAIS\\SelvaTarzan\\SelvaTarzan\\ConjuntosDisjuntos.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{67A1BD4E-B665-4692-8A6B-5D75282BA6AA}|SelvaTarzan\\SelvaTarzan.vcxproj|solutionrelative:SelvaTarzan\\ConjuntosDisjuntos.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67A1BD4E-B665-4692-8A6B-5D75282BA6AA}|SelvaTarzan\\SelvaTarzan.vcxproj|C:\\Users\\javma\\source\\repos\\t3sorero\\TAIS\\SelvaTarzan\\SelvaTarzan\\GrafoValorado.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{67A1BD4E-B665-4692-8A6B-5D75282BA6AA}|SelvaTarzan\\SelvaTarzan.vcxproj|solutionrelative:SelvaTarzan\\GrafoValorado.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67A1BD4E-B665-4692-8A6B-5D75282BA6AA}|SelvaTarzan\\SelvaTarzan.vcxproj|C:\\Users\\javma\\source\\repos\\t3sorero\\TAIS\\SelvaTarzan\\SelvaTarzan\\PriorityQueue.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{67A1BD4E-B665-4692-8A6B-5D75282BA6AA}|SelvaTarzan\\SelvaTarzan.vcxproj|solutionrelative:SelvaTarzan\\PriorityQueue.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "casos.txt",
+              "DocumentMoniker": "C:\\Users\\javma\\source\\repos\\t3sorero\\TAIS\\SelvaTarzan\\SelvaTarzan\\casos.txt",
+              "RelativeDocumentMoniker": "SelvaTarzan\\casos.txt",
+              "ToolTip": "C:\\Users\\javma\\source\\repos\\t3sorero\\TAIS\\SelvaTarzan\\SelvaTarzan\\casos.txt",
+              "RelativeToolTip": "SelvaTarzan\\casos.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-06-18T13:57:28.854Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GrafoValorado.h",
+              "DocumentMoniker": "C:\\Users\\javma\\source\\repos\\t3sorero\\TAIS\\SelvaTarzan\\SelvaTarzan\\GrafoValorado.h",
+              "RelativeDocumentMoniker": "SelvaTarzan\\GrafoValorado.h",
+              "ToolTip": "C:\\Users\\javma\\source\\repos\\t3sorero\\TAIS\\SelvaTarzan\\SelvaTarzan\\GrafoValorado.h",
+              "RelativeToolTip": "SelvaTarzan\\GrafoValorado.h",
+              "ViewState": "AgIAAIIAAAAAAAAAAAAkwKQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-06-18T13:43:30.628Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ConjuntosDisjuntos.h",
+              "DocumentMoniker": "C:\\Users\\javma\\source\\repos\\t3sorero\\TAIS\\SelvaTarzan\\SelvaTarzan\\ConjuntosDisjuntos.h",
+              "RelativeDocumentMoniker": "SelvaTarzan\\ConjuntosDisjuntos.h",
+              "ToolTip": "C:\\Users\\javma\\source\\repos\\t3sorero\\TAIS\\SelvaTarzan\\SelvaTarzan\\ConjuntosDisjuntos.h",
+              "RelativeToolTip": "SelvaTarzan\\ConjuntosDisjuntos.h",
+              "ViewState": "AgIAACQAAAAAAAAAAAAkwEcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-06-18T13:43:14.17Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PriorityQueue.h",
+              "DocumentMoniker": "C:\\Users\\javma\\source\\repos\\t3sorero\\TAIS\\SelvaTarzan\\SelvaTarzan\\PriorityQueue.h",
+              "RelativeDocumentMoniker": "SelvaTarzan\\PriorityQueue.h",
+              "ToolTip": "C:\\Users\\javma\\source\\repos\\t3sorero\\TAIS\\SelvaTarzan\\SelvaTarzan\\PriorityQueue.h",
+              "RelativeToolTip": "SelvaTarzan\\PriorityQueue.h",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAkwH8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-06-18T13:42:52.556Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FileName.cpp",
+              "DocumentMoniker": "C:\\Users\\javma\\source\\repos\\t3sorero\\TAIS\\SelvaTarzan\\SelvaTarzan\\FileName.cpp",
+              "RelativeDocumentMoniker": "SelvaTarzan\\FileName.cpp",
+              "ToolTip": "C:\\Users\\javma\\source\\repos\\t3sorero\\TAIS\\SelvaTarzan\\SelvaTarzan\\FileName.cpp",
+              "RelativeToolTip": "SelvaTarzan\\FileName.cpp",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAFAAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-06-18T13:42:40.917Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

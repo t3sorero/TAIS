@@ -26,40 +26,62 @@ using namespace std;
  // Escribe el código completo de tu solución aquí debajo
  // ================================================================
  //@ <answer>
-int aibofobia(string const& patitos, Matriz<int>&M,int i, int j) {
+
+const int IGUALES = 0;
+const int INSERTO_IZQ = 1;
+const int INSERTO_DER = 2;
+int aibofobia(string const& patitos, Matriz<int>& M, Matriz<int> &decision, int i, int j) {
 	if (i >= j)
 		return 0;
-	int& res = M[i][j];
-	if (res != -1) 
-		return res;
+	if (M[i][j] != -1)
+		return M[i][j];
 		
-	if (patitos[i] == patitos[j])
-		res = aibofobia(patitos, M, i + 1, j - 1);
-	else
-		res = min(aibofobia(patitos, M, i + 1, j), aibofobia(patitos, M, i, j - 1)) + 1;
+	if (patitos[i] == patitos[j]) {
+
+		M[i][j] = aibofobia(patitos, M, decision, i + 1, j - 1);
+		decision[i][j] = IGUALES;
+	}
+	else {
+
+		int izq = aibofobia(patitos, M, decision, i + 1, j);
+		int der = aibofobia(patitos, M, decision, i, j - 1);
+
+		if (izq <= der) {
+			M[i][j] = izq + 1;
+			decision[i][j] = INSERTO_IZQ;
+		}
+		else {
+			M[i][j] = der + 1;
+			decision[i][j] = INSERTO_DER;
+		}
+	}
 		
-	return res;
+	return M[i][j];
 		
 }
 
-void reconstruir(string const& patitos, Matriz<int>const& M, int i, int j, string& rec) {
-	if (i > j)return;
-	if (i == j) 
-		rec.push_back(patitos[i]);
-	else if (patitos[i] == patitos[j]) {
-		rec.push_back(patitos[i]); // Insertar ambos extremos
-		reconstruir(patitos, M, i + 1, j - 1, rec);
-		rec.push_back(patitos[j]);
+string reconstruir(string const& patitos, Matriz<int> const& decision, int i, int j) {
+	if (i > j) return "";
+
+	if (i == j) {
+		// Un solo carácter en el medio
+		return string(1, patitos[i]);
 	}
-	else if (M[i][j] == M[i][j - 1]) {
-		rec.push_back(patitos[j]); // Insertar desde la derecha
-		reconstruir(patitos, M, i, j - 1, rec);
-		rec.push_back(patitos[j]);
+
+	if (decision[i][j] == IGUALES) {
+		// Los caracteres son iguales - los ponemos en los extremos
+		string medio = reconstruir(patitos, decision, i + 1, j - 1);
+		return patitos[i] + medio + patitos[j];
 	}
-	else {
-		rec.push_back(patitos[i]); // Insertar desde la izquierda
-		reconstruir(patitos, M, i + 1, j, rec);
-		rec.push_back(patitos[i]);
+	else if (decision[i][j] == INSERTO_IZQ) {
+		// Insertamos el carácter izquierdo también al final
+		string resto = reconstruir(patitos, decision, i + 1, j);
+		return patitos[i] + resto + patitos[i];
+	}
+	else { // INSERTAR_DER
+		// Insertamos el carácter derecho también al principio
+		string resto = reconstruir(patitos, decision, i, j - 1);
+		return patitos[j] + resto + patitos[j];
 	}
 }
 
@@ -71,13 +93,16 @@ bool resuelveCaso() {
 		return false;
 	int n = patitos.size();
 	Matriz<int> M(n, n, -1);
+	Matriz<int> decision(n, n, -1);
+
 	for (int i = 0; i < n; i++) {
 		M[i][i] = 0;
 	}
-	int sol = aibofobia(patitos, M,0,n-1);
-	string rec;
-	reconstruir(patitos, M, 0, n-1, rec);
-	cout << sol << " " << rec << "\n";
+	int sol = aibofobia(patitos, M, decision ,0,n-1);
+	string izq,der;
+	
+	string res = reconstruir(patitos, decision, 0, n - 1);
+	cout << sol << " " << res << "\n";
 	return true;
 }
 

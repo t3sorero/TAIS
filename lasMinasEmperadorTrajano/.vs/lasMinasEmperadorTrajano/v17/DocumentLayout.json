@@ -1,0 +1,85 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\javma\\source\\repos\\t3sorero\\TAIS\\lasMinasEmperadorTrajano\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{ED0CF4D4-AC37-42CF-85E9-ED1C4BE2134D}|lasMinasEmperadorTrajano\\lasMinasEmperadorTrajano.vcxproj|C:\\Users\\javma\\source\\repos\\t3sorero\\TAIS\\lasMinasEmperadorTrajano\\lasMinasEmperadorTrajano\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{ED0CF4D4-AC37-42CF-85E9-ED1C4BE2134D}|lasMinasEmperadorTrajano\\lasMinasEmperadorTrajano.vcxproj|solutionrelative:lasMinasEmperadorTrajano\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED0CF4D4-AC37-42CF-85E9-ED1C4BE2134D}|lasMinasEmperadorTrajano\\lasMinasEmperadorTrajano.vcxproj|C:\\Users\\javma\\source\\repos\\t3sorero\\TAIS\\lasMinasEmperadorTrajano\\lasMinasEmperadorTrajano\\ConjuntosDisjuntos.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{ED0CF4D4-AC37-42CF-85E9-ED1C4BE2134D}|lasMinasEmperadorTrajano\\lasMinasEmperadorTrajano.vcxproj|solutionrelative:lasMinasEmperadorTrajano\\ConjuntosDisjuntos.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED0CF4D4-AC37-42CF-85E9-ED1C4BE2134D}|lasMinasEmperadorTrajano\\lasMinasEmperadorTrajano.vcxproj|C:\\Users\\javma\\source\\repos\\t3sorero\\TAIS\\lasMinasEmperadorTrajano\\lasMinasEmperadorTrajano\\GrafoValorado.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{ED0CF4D4-AC37-42CF-85E9-ED1C4BE2134D}|lasMinasEmperadorTrajano\\lasMinasEmperadorTrajano.vcxproj|solutionrelative:lasMinasEmperadorTrajano\\GrafoValorado.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED0CF4D4-AC37-42CF-85E9-ED1C4BE2134D}|lasMinasEmperadorTrajano\\lasMinasEmperadorTrajano.vcxproj|C:\\Users\\javma\\source\\repos\\t3sorero\\TAIS\\lasMinasEmperadorTrajano\\lasMinasEmperadorTrajano\\casos.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{ED0CF4D4-AC37-42CF-85E9-ED1C4BE2134D}|lasMinasEmperadorTrajano\\lasMinasEmperadorTrajano.vcxproj|solutionrelative:lasMinasEmperadorTrajano\\casos.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ConjuntosDisjuntos.h",
+              "DocumentMoniker": "C:\\Users\\javma\\source\\repos\\t3sorero\\TAIS\\lasMinasEmperadorTrajano\\lasMinasEmperadorTrajano\\ConjuntosDisjuntos.h",
+              "RelativeDocumentMoniker": "lasMinasEmperadorTrajano\\ConjuntosDisjuntos.h",
+              "ToolTip": "C:\\Users\\javma\\source\\repos\\t3sorero\\TAIS\\lasMinasEmperadorTrajano\\lasMinasEmperadorTrajano\\ConjuntosDisjuntos.h",
+              "RelativeToolTip": "lasMinasEmperadorTrajano\\ConjuntosDisjuntos.h",
+              "ViewState": "AQIAADUAAAAAAAAAAAAwwEcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-06-22T14:34:07.491Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "casos.txt",
+              "DocumentMoniker": "C:\\Users\\javma\\source\\repos\\t3sorero\\TAIS\\lasMinasEmperadorTrajano\\lasMinasEmperadorTrajano\\casos.txt",
+              "RelativeDocumentMoniker": "lasMinasEmperadorTrajano\\casos.txt",
+              "ToolTip": "C:\\Users\\javma\\source\\repos\\t3sorero\\TAIS\\lasMinasEmperadorTrajano\\lasMinasEmperadorTrajano\\casos.txt",
+              "RelativeToolTip": "lasMinasEmperadorTrajano\\casos.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-06-22T14:34:07.501Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GrafoValorado.h",
+              "DocumentMoniker": "C:\\Users\\javma\\source\\repos\\t3sorero\\TAIS\\lasMinasEmperadorTrajano\\lasMinasEmperadorTrajano\\GrafoValorado.h",
+              "RelativeDocumentMoniker": "lasMinasEmperadorTrajano\\GrafoValorado.h",
+              "ToolTip": "C:\\Users\\javma\\source\\repos\\t3sorero\\TAIS\\lasMinasEmperadorTrajano\\lasMinasEmperadorTrajano\\GrafoValorado.h",
+              "RelativeToolTip": "lasMinasEmperadorTrajano\\GrafoValorado.h",
+              "ViewState": "AQIAAEEAAAAAAAAAAAAwwKQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-06-22T14:34:07.502Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Source.cpp",
+              "DocumentMoniker": "C:\\Users\\javma\\source\\repos\\t3sorero\\TAIS\\lasMinasEmperadorTrajano\\lasMinasEmperadorTrajano\\Source.cpp",
+              "RelativeDocumentMoniker": "lasMinasEmperadorTrajano\\Source.cpp",
+              "ToolTip": "C:\\Users\\javma\\source\\repos\\t3sorero\\TAIS\\lasMinasEmperadorTrajano\\lasMinasEmperadorTrajano\\Source.cpp",
+              "RelativeToolTip": "lasMinasEmperadorTrajano\\Source.cpp",
+              "ViewState": "AgIAABAAAAAAAAAAAAAwwCUAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-06-22T14:34:07.524Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

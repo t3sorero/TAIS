@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\javma\\source\\repos\\t3sorero\\TAIS\\ComienzaTemporada\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AE19B0A0-D225-4651-9BA4-8A5062F3DABC}|ComienzaTemporada\\ComienzaTemporada.vcxproj|C:\\Users\\javma\\source\\repos\\t3sorero\\TAIS\\ComienzaTemporada\\ComienzaTemporada\\FileName.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{AE19B0A0-D225-4651-9BA4-8A5062F3DABC}|ComienzaTemporada\\ComienzaTemporada.vcxproj|solutionrelative:ComienzaTemporada\\FileName.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE19B0A0-D225-4651-9BA4-8A5062F3DABC}|ComienzaTemporada\\ComienzaTemporada.vcxproj|C:\\Users\\javma\\source\\repos\\t3sorero\\TAIS\\ComienzaTemporada\\ComienzaTemporada\\PriorityQueue.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{AE19B0A0-D225-4651-9BA4-8A5062F3DABC}|ComienzaTemporada\\ComienzaTemporada.vcxproj|solutionrelative:ComienzaTemporada\\PriorityQueue.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE19B0A0-D225-4651-9BA4-8A5062F3DABC}|ComienzaTemporada\\ComienzaTemporada.vcxproj|C:\\Users\\javma\\source\\repos\\t3sorero\\TAIS\\ComienzaTemporada\\ComienzaTemporada\\casos.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{AE19B0A0-D225-4651-9BA4-8A5062F3DABC}|ComienzaTemporada\\ComienzaTemporada.vcxproj|solutionrelative:ComienzaTemporada\\casos.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "casos.txt",
+              "DocumentMoniker": "C:\\Users\\javma\\source\\repos\\t3sorero\\TAIS\\ComienzaTemporada\\ComienzaTemporada\\casos.txt",
+              "RelativeDocumentMoniker": "ComienzaTemporada\\casos.txt",
+              "ToolTip": "C:\\Users\\javma\\source\\repos\\t3sorero\\TAIS\\ComienzaTemporada\\ComienzaTemporada\\casos.txt",
+              "RelativeToolTip": "ComienzaTemporada\\casos.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-06-21T18:06:46.878Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FileName.cpp",
+              "DocumentMoniker": "C:\\Users\\javma\\source\\repos\\t3sorero\\TAIS\\ComienzaTemporada\\ComienzaTemporada\\FileName.cpp",
+              "RelativeDocumentMoniker": "ComienzaTemporada\\FileName.cpp",
+              "ToolTip": "C:\\Users\\javma\\source\\repos\\t3sorero\\TAIS\\ComienzaTemporada\\ComienzaTemporada\\FileName.cpp*",
+              "RelativeToolTip": "ComienzaTemporada\\FileName.cpp*",
+              "ViewState": "AgIAACcAAAAAAAAAAAAqwD8AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-06-21T17:57:40.887Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PriorityQueue.h",
+              "DocumentMoniker": "C:\\Users\\javma\\source\\repos\\t3sorero\\TAIS\\ComienzaTemporada\\ComienzaTemporada\\PriorityQueue.h",
+              "RelativeDocumentMoniker": "ComienzaTemporada\\PriorityQueue.h",
+              "ToolTip": "C:\\Users\\javma\\source\\repos\\t3sorero\\TAIS\\ComienzaTemporada\\ComienzaTemporada\\PriorityQueue.h",
+              "RelativeToolTip": "ComienzaTemporada\\PriorityQueue.h",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAAAH8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-06-21T17:57:31.17Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,4 +1,13 @@
 {
-  "ExpandedNodes": [],
+  "ExpandedNodes": [
+    "",
+    "\\aibofobia",
+    "\\aibofobia\\aibofobia",
+    "\\lasMinasEmperadorTrajano",
+    "\\lasMinasEmperadorTrajano\\lasMinasEmperadorTrajano",
+    "\\nosVamosConcierto",
+    "\\nosVamosConcierto\\nosVamosConcierto"
+  ],
+  "SelectedNode": "\\aibofobia\\aibofobia\\Source.cpp",
   "PreviewInSolutionExplorer": false
 }

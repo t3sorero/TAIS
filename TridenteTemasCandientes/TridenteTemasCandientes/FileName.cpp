@@ -27,13 +27,23 @@ using namespace std;
  // ================================================================
  //@ <answer>
 
+struct Tema {
+	int puntuacion;
+	int tendencia_reciente;
 
+	bool operator >(Tema const& otro) const{
+		if (puntuacion == otro.puntuacion)
+			return tendencia_reciente > otro.tendencia_reciente;
+		else
+			return puntuacion > otro.puntuacion;
+	}
+};
 bool resuelveCaso() {
 	int n; cin >> n;
 	if (!std::cin)  // fin de la entrada
 		return false;
 
-	IndexPQ<string, int, greater<int>> pq;
+	IndexPQ<string, Tema, greater<Tema>> pq;
 
 	for (int i = 0; i < n; ++i) {
 		string c; cin >> c;
@@ -41,40 +51,36 @@ bool resuelveCaso() {
 		if (c == "C") {
 			string nombre; int puntuacion; cin >> nombre >> puntuacion;
 			if (pq.contains(nombre)) {
-				int p = pq.priority(nombre);
-				pq.update(nombre, p + puntuacion);
+				Tema t = pq.priority(nombre);
+				pq.update(nombre, { t.puntuacion + puntuacion, i});
 			}
 			else
 			{
-				pq.push(nombre, puntuacion);
+				pq.push(nombre, { puntuacion,i });
 			}
 				
 		}
 		else if (c == "E") {
 			string nombre; int puntuacion; cin >> nombre >> puntuacion;
 			if (pq.contains(nombre)) {
-				int p = pq.priority(nombre);
-				if (p == puntuacion) {
-					pq.update(nombre, INT_MAX);
+				Tema t = pq.priority(nombre);
+				if (t.puntuacion == puntuacion) {
+					pq.update(nombre, { INT_MAX,i });
 					pq.pop();
 				}
 				else {
-					pq.update(nombre, p - puntuacion);
+					pq.update(nombre, { t.puntuacion - puntuacion,t.tendencia_reciente });
 				}
-			}
-			else
-			{
-				pq.push(nombre, puntuacion);
 			}
 
 		}
 		else if (c == "TC") {
 			int range = min(3, pq.size());
-			vector<pair<string, int>>temp;
+			vector<pair<string, Tema>>temp;
 			for (int i = 0; i < range; i++) {
 				auto t = pq.top(); pq.pop();
 				cout << i + 1 << " " << t.elem << "\n";
-				temp.push_back({ t.elem,t.prioridad });
+				temp.push_back({ t.elem,{t.prioridad.puntuacion ,t.prioridad.tendencia_reciente} });
 				
 			}
 			for (int i = 0; i < range; i++) {

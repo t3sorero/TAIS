@@ -9,11 +9,9 @@
 #include <fstream>
 #include <vector>
 #include<algorithm>
-#include<unordered_map>
 
 using namespace std;
 
-#include "EnterosInf.h"  // propios o los de las estructuras de datos de clase
 #include "Matriz.h"
 
 /*@ <answer>
@@ -30,8 +28,30 @@ using namespace std;
  // ================================================================
  //@ <answer>
 
-bool ordenado(pair<int, int> const& a, pair<int, int>const& b) {
-	return a.second < b.second;
+int festival(vector<pair<int,int>> const& M, Matriz<int>& dp, int i, int j) {
+	
+	//casos base
+	if (i == 0) return 0;
+
+	if (j == 0) return 0;
+
+	if (dp[i][j] != -1) {
+		return dp[i][j];
+	}
+	//No eligo el nuevo festival i
+	int noElegir = festival(M, dp, i - 1, j);
+
+	int precio = M[i - 1].second;
+	int personas = M[i - 1].first;
+	int elegir = 0;
+	//puedo elegir el nuevo festival i, veo si me conviene y no me paso de presupuesto pero tengo que evitar que repita festivales
+	if (precio <= j) {
+		elegir = festival(M, dp, i - 1, j - precio) + personas;
+	}
+
+	dp[i][j] = max(noElegir, elegir);
+
+	return dp[i][j];
 }
 
 bool resuelveCaso() {
@@ -49,30 +69,10 @@ bool resuelveCaso() {
 		v.push_back({ a,b });
 	}
 
-	sort(v.begin(), v.end(), ordenado);
-	// matriz de personas
-	Matriz<int> concierto(N + 1, P + 1, -1);
-	vector<bool> usar(N, false);
-
-
-	for (int i = 1; i <= N; i++) {
-		concierto[i][0] = 0;
-		for (int j = 1; j <= P; j++) {
-			if (j < v[i - 1].second)
-				concierto[i][j] = concierto[i - 1][j];
-			else
-				if (concierto[i][j - v[i - 1].second] == v[i - 1].first)
-					concierto[i][j] = concierto[i][j - 1];
-				else
-					concierto[i][j] = max(concierto[i][j - v[i - 1].second] + v[i - 1].first, concierto[i][j - 1]);
-			
-		}
-	}
-	if (concierto[N][P] == -1) cout << 0 << "\n";
-	cout << concierto[N][P] << "\n";
+	Matriz<int> dp(N + 1, P + 1, -1);
 
 	// escribir la solución
-
+	cout << festival(v, dp, N, P) << "\n";
 	return true;
 }
 

@@ -74,7 +74,7 @@ bool resuelveCaso() {
 	for (int i = 0; i < A; i++) {
 		int a, b; long long int c;
 		cin >> a >> b >> c;
-		Arista  <long long int> arist(a - 1, b - 1, 2 * c);
+		Arista  <long long int> arist(a - 1, b - 1,c);
 		gv.ponArista(arist);
 	}
 
@@ -82,31 +82,28 @@ bool resuelveCaso() {
 	NecesitamosAgua sur(gv, V - 1);
 	vector<pair<int, long long int>> diff;
 	
-	long long int res = 0;
 	for (int i = 1; i < V-1; i++) {
-		diff.push_back({ i, abs(norte.distancia(i) - sur.distancia(i)) });
+		diff.push_back({ i, norte.distancia(i) - sur.distancia(i) });
 	}
 
 	sort(diff.begin(), diff.end(), ordenaSort);
 
-	long long int contN = 0, contS = 0;
-	for (int i = 0; i < diff.size(); i++) {
-		if (contN == (V - 2)/2) {
-			res += sur.distancia(diff[i].first);
-			contS++;
-		}
-		else if (contS == (V - 2) / 2) {
-			res += norte.distancia(diff[i].first);
-			contN++;
-		}
-		else {
-			long long int r = min(norte.distancia(diff[i].first), sur.distancia(diff[i].first));
-			res += r;
-			if (r == norte.distancia(diff[i].first)) contN++;
-			else contS++;
-		}
+	long long int costo_total = 0;
+	int pueblos_por_planta = (V - 2) / 2;
+
+	// Asignar primeros pueblos al sur (tienen diferencia más negativa)
+	for (int i = 0; i < pueblos_por_planta; i++) {
+		int pueblo = diff[i].first;
+		costo_total += 2 * sur.distancia(pueblo);  // Ida y vuelta
 	}
-	cout << res << "\n";
+
+	// Asignar últimos pueblos al norte
+	for (int i = pueblos_por_planta; i < diff.size(); i++) {
+		int pueblo = diff[i].first;
+		costo_total += 2 * norte.distancia(pueblo);  // Ida y vuelta
+	}
+
+	cout << costo_total << "\n";
 	return true;
 }
 

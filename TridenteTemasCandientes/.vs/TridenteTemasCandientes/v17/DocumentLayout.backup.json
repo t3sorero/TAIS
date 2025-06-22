@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\javma\\source\\repos\\t3sorero\\TAIS\\TridenteTemasCandientes\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A5354DBF-9B26-4BAC-9236-F5243A28850C}|TridenteTemasCandientes\\TridenteTemasCandientes.vcxproj|C:\\Users\\javma\\source\\repos\\t3sorero\\TAIS\\TridenteTemasCandientes\\TridenteTemasCandientes\\IndexPQ.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A5354DBF-9B26-4BAC-9236-F5243A28850C}|TridenteTemasCandientes\\TridenteTemasCandientes.vcxproj|solutionrelative:TridenteTemasCandientes\\IndexPQ.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A5354DBF-9B26-4BAC-9236-F5243A28850C}|TridenteTemasCandientes\\TridenteTemasCandientes.vcxproj|C:\\Users\\javma\\source\\repos\\t3sorero\\TAIS\\TridenteTemasCandientes\\TridenteTemasCandientes\\FileName.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{A5354DBF-9B26-4BAC-9236-F5243A28850C}|TridenteTemasCandientes\\TridenteTemasCandientes.vcxproj|solutionrelative:TridenteTemasCandientes\\FileName.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5354DBF-9B26-4BAC-9236-F5243A28850C}|TridenteTemasCandientes\\TridenteTemasCandientes.vcxproj|C:\\Users\\javma\\source\\repos\\t3sorero\\TAIS\\TridenteTemasCandientes\\TridenteTemasCandientes\\IndexPQ.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A5354DBF-9B26-4BAC-9236-F5243A28850C}|TridenteTemasCandientes\\TridenteTemasCandientes.vcxproj|solutionrelative:TridenteTemasCandientes\\IndexPQ.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\include\\vector||{3B902123-F8A7-4915-9F01-361F908088D0}|"
@@ -25,7 +25,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
@@ -53,26 +53,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "IndexPQ.h",
               "DocumentMoniker": "C:\\Users\\javma\\source\\repos\\t3sorero\\TAIS\\TridenteTemasCandientes\\TridenteTemasCandientes\\IndexPQ.h",
               "RelativeDocumentMoniker": "TridenteTemasCandientes\\IndexPQ.h",
-              "ToolTip": "C:\\Users\\javma\\source\\repos\\t3sorero\\TAIS\\TridenteTemasCandientes\\TridenteTemasCandientes\\IndexPQ.h*",
-              "RelativeToolTip": "TridenteTemasCandientes\\IndexPQ.h*",
-              "ViewState": "AgIAAFkAAAAAAAAAAAAtwG4AAAAZAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\javma\\source\\repos\\t3sorero\\TAIS\\TridenteTemasCandientes\\TridenteTemasCandientes\\IndexPQ.h",
+              "RelativeToolTip": "TridenteTemasCandientes\\IndexPQ.h",
+              "ViewState": "AgIAAGMAAAAAAAAAAIAwwHcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-06-03T14:27:48.877Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "FileName.cpp",
               "DocumentMoniker": "C:\\Users\\javma\\source\\repos\\t3sorero\\TAIS\\TridenteTemasCandientes\\TridenteTemasCandientes\\FileName.cpp",
               "RelativeDocumentMoniker": "TridenteTemasCandientes\\FileName.cpp",
-              "ToolTip": "C:\\Users\\javma\\source\\repos\\t3sorero\\TAIS\\TridenteTemasCandientes\\TridenteTemasCandientes\\FileName.cpp",
-              "RelativeToolTip": "TridenteTemasCandientes\\FileName.cpp",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAACoAAAASAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\javma\\source\\repos\\t3sorero\\TAIS\\TridenteTemasCandientes\\TridenteTemasCandientes\\FileName.cpp*",
+              "RelativeToolTip": "TridenteTemasCandientes\\FileName.cpp*",
+              "ViewState": "AgIAAB4AAAAAAAAAAIAwwCMAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-06-03T14:26:40.602Z",
               "EditorCaption": ""

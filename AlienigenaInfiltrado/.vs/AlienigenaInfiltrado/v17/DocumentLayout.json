@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\javma\\source\\repos\\t3sorero\\TAIS\\AlienigenaInfiltrado\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{297FEC11-E53C-44A5-A43B-15E2941E2256}|AlienigenaInfiltrado\\AlienigenaInfiltrado.vcxproj|C:\\Users\\javma\\source\\repos\\t3sorero\\TAIS\\AlienigenaInfiltrado\\AlienigenaInfiltrado\\FileName.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{297FEC11-E53C-44A5-A43B-15E2941E2256}|AlienigenaInfiltrado\\AlienigenaInfiltrado.vcxproj|solutionrelative:AlienigenaInfiltrado\\FileName.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{297FEC11-E53C-44A5-A43B-15E2941E2256}|AlienigenaInfiltrado\\AlienigenaInfiltrado.vcxproj|C:\\Users\\javma\\source\\repos\\t3sorero\\TAIS\\AlienigenaInfiltrado\\AlienigenaInfiltrado\\casos.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{297FEC11-E53C-44A5-A43B-15E2941E2256}|AlienigenaInfiltrado\\AlienigenaInfiltrado.vcxproj|solutionrelative:AlienigenaInfiltrado\\casos.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "casos.txt",
+              "DocumentMoniker": "C:\\Users\\javma\\source\\repos\\t3sorero\\TAIS\\AlienigenaInfiltrado\\AlienigenaInfiltrado\\casos.txt",
+              "RelativeDocumentMoniker": "AlienigenaInfiltrado\\casos.txt",
+              "ToolTip": "C:\\Users\\javma\\source\\repos\\t3sorero\\TAIS\\AlienigenaInfiltrado\\AlienigenaInfiltrado\\casos.txt",
+              "RelativeToolTip": "AlienigenaInfiltrado\\casos.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-06-21T19:28:31.392Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FileName.cpp",
+              "DocumentMoniker": "C:\\Users\\javma\\source\\repos\\t3sorero\\TAIS\\AlienigenaInfiltrado\\AlienigenaInfiltrado\\FileName.cpp",
+              "RelativeDocumentMoniker": "AlienigenaInfiltrado\\FileName.cpp",
+              "ToolTip": "C:\\Users\\javma\\source\\repos\\t3sorero\\TAIS\\AlienigenaInfiltrado\\AlienigenaInfiltrado\\FileName.cpp",
+              "RelativeToolTip": "AlienigenaInfiltrado\\FileName.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADgAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-06-21T19:09:46.092Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,9 +1,10 @@
 ﻿  Source.cpp
-C:\Users\Javier\Desktop\TAIS\necesitamosAgua\necesitamosAgua\Source.cpp(39,54): warning C4244: 'return': conversión de 'const _Ty' a 'int'; posible pérdida de datos
-          with
-          [
-              _Ty=__int64
-          ]
-C:\Users\Javier\Desktop\TAIS\necesitamosAgua\necesitamosAgua\Source.cpp(72,34): warning C4244: 'argumento': conversión de '__int64' a 'int'; posible pérdida de datos
-C:\Users\Javier\Desktop\TAIS\necesitamosAgua\necesitamosAgua\Source.cpp(82,28): warning C4244: 'argumento': conversión de '__int64' a 'int'; posible pérdida de datos
-  necesitamosAgua.vcxproj -> C:\Users\Javier\Desktop\TAIS\necesitamosAgua\x64\Debug\necesitamosAgua.exe
+C:\Users\javma\source\repos\t3sorero\TAIS\necesitamosAgua\necesitamosAgua\Source.cpp(39,54): warning C4244: 'return': conversión de 'const _Ty' a 'int'; posible pérdida de datos
+C:\Users\javma\source\repos\t3sorero\TAIS\necesitamosAgua\necesitamosAgua\Source.cpp(39,54): warning C4244:         with
+C:\Users\javma\source\repos\t3sorero\TAIS\necesitamosAgua\necesitamosAgua\Source.cpp(39,54): warning C4244:         [
+C:\Users\javma\source\repos\t3sorero\TAIS\necesitamosAgua\necesitamosAgua\Source.cpp(39,54): warning C4244:             _Ty=__int64
+C:\Users\javma\source\repos\t3sorero\TAIS\necesitamosAgua\necesitamosAgua\Source.cpp(39,54): warning C4244:         ]
+C:\Users\javma\source\repos\t3sorero\TAIS\necesitamosAgua\necesitamosAgua\Source.cpp(72,34): warning C4244: 'argumento': conversión de '__int64' a 'int'; posible pérdida de datos
+C:\Users\javma\source\repos\t3sorero\TAIS\necesitamosAgua\necesitamosAgua\Source.cpp(82,28): warning C4244: 'argumento': conversión de '__int64' a 'int'; posible pérdida de datos
+C:\Users\javma\source\repos\t3sorero\TAIS\necesitamosAgua\necesitamosAgua\Source.cpp(92,25): warning C4244: 'inicializando': conversión de '__int64' a 'int'; posible pérdida de datos
+  necesitamosAgua.vcxproj -> C:\Users\javma\source\repos\t3sorero\TAIS\necesitamosAgua\x64\Debug\necesitamosAgua.exe

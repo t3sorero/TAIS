@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\javma\\source\\repos\\t3sorero\\TAIS\\necesitamosAgua\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\javma\\AppData\\Local\\Temp\\26afdad6-1e4d-4436-8ac2-c11a1b51625b_TAIS.zip.25b\\TAIS\\ejercicio_9.L_TAIS\\ejercicio_9.L_TAIS.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4392681E-63E7-4FD2-8EC0-418FC99EE749}|necesitamosAgua\\necesitamosAgua.vcxproj|C:\\Users\\javma\\source\\repos\\t3sorero\\TAIS\\necesitamosAgua\\necesitamosAgua\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4392681E-63E7-4FD2-8EC0-418FC99EE749}|necesitamosAgua\\necesitamosAgua.vcxproj|solutionrelative:necesitamosAgua\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ejercicio_9.L_TAIS.cpp",
+              "DocumentMoniker": "C:\\Users\\javma\\AppData\\Local\\Temp\\26afdad6-1e4d-4436-8ac2-c11a1b51625b_TAIS.zip.25b\\TAIS\\ejercicio_9.L_TAIS\\ejercicio_9.L_TAIS.cpp",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\AppData\\Local\\Temp\\26afdad6-1e4d-4436-8ac2-c11a1b51625b_TAIS.zip.25b\\TAIS\\ejercicio_9.L_TAIS\\ejercicio_9.L_TAIS.cpp",
+              "ToolTip": "C:\\Users\\javma\\AppData\\Local\\Temp\\26afdad6-1e4d-4436-8ac2-c11a1b51625b_TAIS.zip.25b\\TAIS\\ejercicio_9.L_TAIS\\ejercicio_9.L_TAIS.cpp [Solo lectura]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\AppData\\Local\\Temp\\26afdad6-1e4d-4436-8ac2-c11a1b51625b_TAIS.zip.25b\\TAIS\\ejercicio_9.L_TAIS\\ejercicio_9.L_TAIS.cpp [Solo lectura]",
+              "ViewState": "AgIAAGkAAAAAAAAAAAAAAHAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-06-22T08:37:46.349Z",
+              "EditorCaption": " [Solo lectura]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Source.cpp",
+              "DocumentMoniker": "C:\\Users\\javma\\source\\repos\\t3sorero\\TAIS\\necesitamosAgua\\necesitamosAgua\\Source.cpp",
+              "RelativeDocumentMoniker": "necesitamosAgua\\Source.cpp",
+              "ToolTip": "C:\\Users\\javma\\source\\repos\\t3sorero\\TAIS\\necesitamosAgua\\necesitamosAgua\\Source.cpp",
+              "RelativeToolTip": "necesitamosAgua\\Source.cpp",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAAAGoAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-06-22T08:25:49.033Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\javma\\source\\repos\\t3sorero\\TAIS\\CaminoAlCole\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9F945AC0-9B93-49DE-B17C-E54D3082BE02}|CaminoAlCole\\CaminoAlCole.vcxproj|C:\\Users\\javma\\source\\repos\\t3sorero\\TAIS\\CaminoAlCole\\CaminoAlCole\\FileName.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9F945AC0-9B93-49DE-B17C-E54D3082BE02}|CaminoAlCole\\CaminoAlCole.vcxproj|solutionrelative:CaminoAlCole\\FileName.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F945AC0-9B93-49DE-B17C-E54D3082BE02}|CaminoAlCole\\CaminoAlCole.vcxproj|C:\\Users\\javma\\source\\repos\\t3sorero\\TAIS\\CaminoAlCole\\CaminoAlCole\\DigrafoValorado.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9F945AC0-9B93-49DE-B17C-E54D3082BE02}|CaminoAlCole\\CaminoAlCole.vcxproj|solutionrelative:CaminoAlCole\\DigrafoValorado.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F945AC0-9B93-49DE-B17C-E54D3082BE02}|CaminoAlCole\\CaminoAlCole.vcxproj|C:\\Users\\javma\\source\\repos\\t3sorero\\TAIS\\CaminoAlCole\\CaminoAlCole\\IndexPQ.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9F945AC0-9B93-49DE-B17C-E54D3082BE02}|CaminoAlCole\\CaminoAlCole.vcxproj|solutionrelative:CaminoAlCole\\IndexPQ.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F945AC0-9B93-49DE-B17C-E54D3082BE02}|CaminoAlCole\\CaminoAlCole.vcxproj|C:\\Users\\javma\\source\\repos\\t3sorero\\TAIS\\CaminoAlCole\\CaminoAlCole\\casos.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{9F945AC0-9B93-49DE-B17C-E54D3082BE02}|CaminoAlCole\\CaminoAlCole.vcxproj|solutionrelative:CaminoAlCole\\casos.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IndexPQ.h",
+              "DocumentMoniker": "C:\\Users\\javma\\source\\repos\\t3sorero\\TAIS\\CaminoAlCole\\CaminoAlCole\\IndexPQ.h",
+              "RelativeDocumentMoniker": "CaminoAlCole\\IndexPQ.h",
+              "ToolTip": "C:\\Users\\javma\\source\\repos\\t3sorero\\TAIS\\CaminoAlCole\\CaminoAlCole\\IndexPQ.h",
+              "RelativeToolTip": "CaminoAlCole\\IndexPQ.h",
+              "ViewState": "AgIAAGQAAAAAAAAAAAAwwJQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-06-21T11:57:15.915Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "casos.txt",
+              "DocumentMoniker": "C:\\Users\\javma\\source\\repos\\t3sorero\\TAIS\\CaminoAlCole\\CaminoAlCole\\casos.txt",
+              "RelativeDocumentMoniker": "CaminoAlCole\\casos.txt",
+              "ToolTip": "C:\\Users\\javma\\source\\repos\\t3sorero\\TAIS\\CaminoAlCole\\CaminoAlCole\\casos.txt",
+              "RelativeToolTip": "CaminoAlCole\\casos.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-06-20T17:15:10.919Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DigrafoValorado.h",
+              "DocumentMoniker": "C:\\Users\\javma\\source\\repos\\t3sorero\\TAIS\\CaminoAlCole\\CaminoAlCole\\DigrafoValorado.h",
+              "RelativeDocumentMoniker": "CaminoAlCole\\DigrafoValorado.h",
+              "ToolTip": "C:\\Users\\javma\\source\\repos\\t3sorero\\TAIS\\CaminoAlCole\\CaminoAlCole\\DigrafoValorado.h",
+              "RelativeToolTip": "CaminoAlCole\\DigrafoValorado.h",
+              "ViewState": "AgIAAIwAAAAAAAAAAAAgwKsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-06-20T15:57:57.536Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FileName.cpp",
+              "DocumentMoniker": "C:\\Users\\javma\\source\\repos\\t3sorero\\TAIS\\CaminoAlCole\\CaminoAlCole\\FileName.cpp",
+              "RelativeDocumentMoniker": "CaminoAlCole\\FileName.cpp",
+              "ToolTip": "C:\\Users\\javma\\source\\repos\\t3sorero\\TAIS\\CaminoAlCole\\CaminoAlCole\\FileName.cpp",
+              "RelativeToolTip": "CaminoAlCole\\FileName.cpp",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAAFcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-06-20T15:46:36.642Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
