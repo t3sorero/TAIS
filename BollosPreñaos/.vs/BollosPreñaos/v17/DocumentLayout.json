@@ -1,0 +1,70 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\javma\\source\\repos\\t3sorero\\TAIS\\BollosPre\u00F1aos\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{79AC344A-758D-4F65-A17A-C404BEF11939}|BollosPre\u00F1aos\\BollosPre\u00F1aos.vcxproj|C:\\Users\\javma\\source\\repos\\t3sorero\\TAIS\\BollosPre\u00F1aos\\BollosPre\u00F1aos\\Matriz.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{79AC344A-758D-4F65-A17A-C404BEF11939}|BollosPre\u00F1aos\\BollosPre\u00F1aos.vcxproj|solutionrelative:BollosPre\u00F1aos\\Matriz.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79AC344A-758D-4F65-A17A-C404BEF11939}|BollosPre\u00F1aos\\BollosPre\u00F1aos.vcxproj|C:\\Users\\javma\\source\\repos\\t3sorero\\TAIS\\BollosPre\u00F1aos\\BollosPre\u00F1aos\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{79AC344A-758D-4F65-A17A-C404BEF11939}|BollosPre\u00F1aos\\BollosPre\u00F1aos.vcxproj|solutionrelative:BollosPre\u00F1aos\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79AC344A-758D-4F65-A17A-C404BEF11939}|BollosPre\u00F1aos\\BollosPre\u00F1aos.vcxproj|C:\\Users\\javma\\source\\repos\\t3sorero\\TAIS\\BollosPre\u00F1aos\\BollosPre\u00F1aos\\casos.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{79AC344A-758D-4F65-A17A-C404BEF11939}|BollosPre\u00F1aos\\BollosPre\u00F1aos.vcxproj|solutionrelative:BollosPre\u00F1aos\\casos.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "casos.txt",
+              "DocumentMoniker": "C:\\Users\\javma\\source\\repos\\t3sorero\\TAIS\\BollosPre\u00F1aos\\BollosPre\u00F1aos\\casos.txt",
+              "RelativeDocumentMoniker": "BollosPre\u00F1aos\\casos.txt",
+              "ToolTip": "C:\\Users\\javma\\source\\repos\\t3sorero\\TAIS\\BollosPre\u00F1aos\\BollosPre\u00F1aos\\casos.txt",
+              "RelativeToolTip": "BollosPre\u00F1aos\\casos.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-06-23T09:37:24.533Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Matriz.h",
+              "DocumentMoniker": "C:\\Users\\javma\\source\\repos\\t3sorero\\TAIS\\BollosPre\u00F1aos\\BollosPre\u00F1aos\\Matriz.h",
+              "RelativeDocumentMoniker": "BollosPre\u00F1aos\\Matriz.h",
+              "ToolTip": "C:\\Users\\javma\\source\\repos\\t3sorero\\TAIS\\BollosPre\u00F1aos\\BollosPre\u00F1aos\\Matriz.h",
+              "RelativeToolTip": "BollosPre\u00F1aos\\Matriz.h",
+              "ViewState": "AgIAACIAAAAAAAAAAAAgwEEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-06-23T09:37:24.546Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Source.cpp",
+              "DocumentMoniker": "C:\\Users\\javma\\source\\repos\\t3sorero\\TAIS\\BollosPre\u00F1aos\\BollosPre\u00F1aos\\Source.cpp",
+              "RelativeDocumentMoniker": "BollosPre\u00F1aos\\Source.cpp",
+              "ToolTip": "C:\\Users\\javma\\source\\repos\\t3sorero\\TAIS\\BollosPre\u00F1aos\\BollosPre\u00F1aos\\Source.cpp",
+              "RelativeToolTip": "BollosPre\u00F1aos\\Source.cpp",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAC4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-06-23T09:37:24.576Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

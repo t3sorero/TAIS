@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\javma\\source\\repos\\t3sorero\\TAIS\\contstruyendoDianas\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CB680807-EEC2-421F-A448-DE90118946A7}|contstruyendoDianas\\contstruyendoDianas.vcxproj|C:\\Users\\javma\\source\\repos\\t3sorero\\TAIS\\contstruyendoDianas\\contstruyendoDianas\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{CB680807-EEC2-421F-A448-DE90118946A7}|contstruyendoDianas\\contstruyendoDianas.vcxproj|solutionrelative:contstruyendoDianas\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{CB680807-EEC2-421F-A448-DE90118946A7}|contstruyendoDianas\\contstruyendoDianas.vcxproj|C:\\Users\\javma\\source\\repos\\t3sorero\\TAIS\\contstruyendoDianas\\contstruyendoDianas\\casos.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{CB680807-EEC2-421F-A448-DE90118946A7}|contstruyendoDianas\\contstruyendoDianas.vcxproj|solutionrelative:contstruyendoDianas\\casos.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB680807-EEC2-421F-A448-DE90118946A7}|contstruyendoDianas\\contstruyendoDianas.vcxproj|C:\\Users\\javma\\source\\repos\\t3sorero\\TAIS\\contstruyendoDianas\\contstruyendoDianas\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{CB680807-EEC2-421F-A448-DE90118946A7}|contstruyendoDianas\\contstruyendoDianas.vcxproj|solutionrelative:contstruyendoDianas\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CB680807-EEC2-421F-A448-DE90118946A7}|contstruyendoDianas\\contstruyendoDianas.vcxproj|C:\\Users\\javma\\source\\repos\\t3sorero\\TAIS\\contstruyendoDianas\\contstruyendoDianas\\Matriz.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -26,17 +26,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "casos.txt",
               "DocumentMoniker": "C:\\Users\\javma\\source\\repos\\t3sorero\\TAIS\\contstruyendoDianas\\contstruyendoDianas\\casos.txt",
               "RelativeDocumentMoniker": "contstruyendoDianas\\casos.txt",
               "ToolTip": "C:\\Users\\javma\\source\\repos\\t3sorero\\TAIS\\contstruyendoDianas\\contstruyendoDianas\\casos.txt",
               "RelativeToolTip": "contstruyendoDianas\\casos.txt",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
               "WhenOpened": "2025-06-22T09:14:39.916Z",
               "EditorCaption": ""
@@ -49,9 +49,10 @@
               "RelativeDocumentMoniker": "contstruyendoDianas\\Matriz.h",
               "ToolTip": "C:\\Users\\javma\\source\\repos\\t3sorero\\TAIS\\contstruyendoDianas\\contstruyendoDianas\\Matriz.h",
               "RelativeToolTip": "contstruyendoDianas\\Matriz.h",
-              "ViewState": "AQIAABUAAAAAAAAAAAAkwEIAAAAAAAAA",
+              "ViewState": "AgIAABUAAAAAAAAAAAAkwEIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-06-22T09:14:39.917Z"
+              "WhenOpened": "2025-06-22T09:14:39.917Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -63,18 +64,17 @@
               "RelativeToolTip": "contstruyendoDianas\\EnterosInf.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-06-22T09:14:39.918Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-22T09:14:39.918Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Source.cpp",
               "DocumentMoniker": "C:\\Users\\javma\\source\\repos\\t3sorero\\TAIS\\contstruyendoDianas\\contstruyendoDianas\\Source.cpp",
               "RelativeDocumentMoniker": "contstruyendoDianas\\Source.cpp",
               "ToolTip": "C:\\Users\\javma\\source\\repos\\t3sorero\\TAIS\\contstruyendoDianas\\contstruyendoDianas\\Source.cpp",
               "RelativeToolTip": "contstruyendoDianas\\Source.cpp",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAawGYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAawEwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-06-22T09:14:39.939Z",
               "EditorCaption": ""

@@ -67,7 +67,7 @@ EntInf calculaPuntuacion(Matriz<EntInf>& m, vector<int> const& v, int i, int j, 
 	return m[i][j];
 }
 
-vector<int> reconstruirSolucion(Matriz<bool>& decision, vector<int>& v, int S, int P) {
+vector<int> reconstruirSolucion(Matriz<bool>const& decision, vector<int>& v, int S, int P) {
 	vector<int> sol;
 	int i = S, j = P;
 

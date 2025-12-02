@@ -19,6 +19,9 @@ using namespace std;
  se resuelve el problema y cuál es el coste de la solución, en función
  del tamaño del problema.
 
+ hago un simil al problema de la mochila donde se puede repetir los objetos
+ despues calculo cuales serian los minimos entre pmin y pmax, y me quedo con el mejor
+
  @ </answer> */
 
 
@@ -32,8 +35,31 @@ struct Bombilla {
 	int beneficio;
 };
 
-bool operator < (Bombilla b1, Bombilla b2) {
+bool operator < (Bombilla const& b1, Bombilla const&  b2) {
 	return b1.carga < b2.carga;
+}
+
+EntInf bombillas(Matriz<EntInf>& dp, vector<Bombilla> const& v, int i, int j) {
+
+	//Casos Base
+
+	if (i == 0) return Infinito;
+
+	if (j == 0) return 0;
+
+	if (dp[i][j] != EntInf(-1))
+		return dp[i][j];
+
+	//Caso recursivo, mochila con repeticion
+
+	EntInf noCoger = bombillas(dp, v, i - 1, j);
+	EntInf coger = Infinito;
+	if (v[i - 1].carga <= j) { // puedo coger otra bombilla
+		coger = bombillas(dp, v, i, j - v[i - 1].carga) + v[i - 1].beneficio;
+	}
+	dp[i][j] = min(noCoger, coger);
+
+	return dp[i][j];
 }
 
 
@@ -53,49 +79,22 @@ bool resuelveCaso() {
 		cin >> luces[i].beneficio;
 	}
 
-	Matriz<EntInf> tablaDinamica(N + 1, pMax + 1, Infinito);
+	Matriz<EntInf> tablaDinamica(N + 1, pMax + 1, EntInf(-1));
 
-	for (int i = 1; i <= N; i++) {
-		tablaDinamica[i][0] = 0;
-	}
-	
-	EntInf minim = Infinito;
-	int potenciaUsada;
-	for (int i = 1; i <= N; i++) {
+	EntInf minCoste = Infinito;
+	int potenciaOptima = -1;
 
-		for (int j = 1; j <= pMax; j++) {
-			if (luces[i-1].carga <= j) {
-				EntInf izquierda, arriba;
-				izquierda = tablaDinamica[i][j - luces[i - 1].carga] +  luces[i - 1].beneficio;
-				arriba = tablaDinamica[i - 1][j];
-				if (j > pMin) { //estoy en tramo
-					tablaDinamica[i][j] = min(tablaDinamica[i][j - 1], min(izquierda, arriba));
-
-					if (tablaDinamica[i][j] < minim) {
-						minim = tablaDinamica[i][j];
-						potenciaUsada = j;
-						if (minim == tablaDinamica[i][j - 1])
-							potenciaUsada = j - 1;
-					}
-				}
-				else {
-					tablaDinamica[i][j] = min(izquierda, arriba);
-				}
-
-			}
-			else {
-				tablaDinamica[i][j] = tablaDinamica[i - 1][j];
-			}
+	for (int p = pMin; p <= pMax; p++) {
+		EntInf coste = bombillas(tablaDinamica, luces, N, p);
+		if (coste < minCoste) {
+			minCoste = coste;
+			potenciaOptima = p;
 		}
 	}
-	// resolver el caso posiblemente llamando a otras funciones
-	if (tablaDinamica[N][pMax] != Infinito)
-		cout << tablaDinamica[N][pMax] << " " << potenciaUsada << "\n";
-	else
+	if (minCoste == Infinito)
 		cout << "IMPOSIBLE\n";
-
-	
-
+	else
+		cout << minCoste << " " << potenciaOptima << "\n";
 	return true;
 }
 

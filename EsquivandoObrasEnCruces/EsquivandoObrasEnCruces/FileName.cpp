@@ -79,13 +79,14 @@ bool resuelveCaso() {
 	* casos recursivo
 	* 
 	* 
-	* cruce(i,j) = cruce(i-1,j) + cruce (i, j-1) si tavblero[i][j] == .
+	* cruce(i,j) = cruce(i-1,j) + cruce (i, j-1) si tablero[i][j] == . (punto)
 	
 	*/
 
 
 
 	cout << rellenaMatriz(tablaDinamica,tablero,N-1,M-1) << "\n";
+	return true;
 }
 
 //@ </answer>
